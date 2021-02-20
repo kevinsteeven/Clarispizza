@@ -1,0 +1,21 @@
+h1{
+    font-size: 60px;
+    text-align: left;
+    display: inline-block;
+}
+.logo{
+    
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
