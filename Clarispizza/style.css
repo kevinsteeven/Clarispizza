@@ -1,12 +1,28 @@
 h1{
-    font-size: 60px;
-    text-align: left;
-    display: inline-block;
+    font-size: 90px !important;
+    text-align: right;
+    color:white;
+    font-family: normal;
+    font-variant: small-caps;
+    
+    
+    
+}
+nav{
+    background-color: rgba(137, 160, 160, 0.589);
+    width: 100%;
+   
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    background-color: rgb(25, 218, 25);
 }
 .logo{
     
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     display: inline-block;
 }
 header{
@@ -18,4 +34,57 @@ address{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+div{
+    padding: 15px;
+    background-color: rgb(236, 79, 79);
+}
+table{
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+td,th{
+    padding: 5px;
+    border: 1px solid white !important;
+}
+
+
+footer{
+    color: white;
+}
+#mapa{
+    border:3px solid rgb(25, 218, 25); ;
+}
+a{
+    font-weight: bold; 
+}
+.carrusel-images{
+    max-height: 550px;
+    width: 100%;
+}
+/* .imagenes{
+    height: 100 px;
+    align-content: center;
+} */
+figure {
+    border: thin rgb(25, 218, 25) solid !important;
+   align-content: center;
+    padding: 5px !important;
+   
+   /* background-color:rgb(252, 214, 46) ;  */
+}
+.imagenes{
+    height: 200px;
+    width: 100%;
+}
+#container{
+    margin-top: 0px;
+}
+.breadcrumb{
+    margin-bottom: 0px !important;
 }
